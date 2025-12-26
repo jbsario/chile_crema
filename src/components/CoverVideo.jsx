@@ -103,96 +103,96 @@ const CoverVideo = () => {
 
       <Title variants={container} initial="hidden" animate="show">
         <div>
-          <motion.h1
+          <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.13"
             data-scroll-speed="4"
           >
             C
-          </motion.h1>
-          <motion.h1
+          </motion.h2>
+          <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.09"
             data-scroll-speed="4"
           >
             h
-          </motion.h1>
-          <motion.h1
+          </motion.h2>
+          <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.06"
             data-scroll-speed="4"
           >
             i
-          </motion.h1>
-          <motion.h1
+          </motion.h2>
+          <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.04"
             data-scroll-speed="4"
           >
             l
-          </motion.h1>
-           <motion.h1
+          </motion.h2>
+           <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.04"
             data-scroll-speed="4"
           >
             e
-          </motion.h1>
-           <motion.h1
+          </motion.h2>
+           <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.04"
             data-scroll-speed="4"
           >
             
-          </motion.h1>
-           <motion.h1
+          </motion.h2>
+           <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.04"
             data-scroll-speed="4"
           >
             C
-          </motion.h1>
-           <motion.h1
+          </motion.h2>
+           <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.04"
             data-scroll-speed="4"
           >
             r
-          </motion.h1>
-            <motion.h1
+          </motion.h2>
+            <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.04"
             data-scroll-speed="4"
           >
             e
-          </motion.h1>
-            <motion.h1
+          </motion.h2>
+            <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.04"
             data-scroll-speed="4"
           >
             m
-          </motion.h1>
-            <motion.h1
+          </motion.h2>
+            <motion.h2
             variants={item}
             data-scroll
             data-scroll-delay="0.04"
             data-scroll-speed="4"
           >
             a
-          </motion.h1>
+          </motion.h2>
         </div>
-        <motion.h2
+        <motion.h3
           style={{ alignSelf: "flex-end" }}
           variants={item}
           data-scroll
@@ -200,7 +200,7 @@ const CoverVideo = () => {
           data-scroll-speed="2"
         >
           Beyond Spice. Pure Crema
-        </motion.h2>
+        </motion.h3>
       </Title>
 
       <video src={MainVideo} type="video/mp4" autoPlay muted loop />
